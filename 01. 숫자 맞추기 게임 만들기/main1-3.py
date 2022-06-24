@@ -1,0 +1,22 @@
+# 사용자가 int외의 값을 입력할 경우 프로그램이 종료되지 않도록 예외처리
+
+import random
+
+random_number = random.randint(1, 100)
+
+game_count = 1
+
+while True:
+    try: 
+        my_number = int(input("1~100 사이의 숫자를 입력하세요: "))   
+        if my_number > random_number:
+            print('다운')
+        if my_number < random_number:
+            print('업')
+        elif my_number == random_number:
+            print(f'축하합니다! {game_count}회 만에 정답입니다.')
+            break
+        game_count +=1
+
+    except:
+        print('에러가 발생하였습니다. 숫자를 입력하세요')
