@@ -1,5 +1,3 @@
-# ifconfig.kr 에서 조회하는 외부 IP주소 가져오기
-
 import requests  # 사이트에 접속하기 위한 request 모듈
 import re # IP주소를 찾기 위한 정규식을 사용하기 위해 re 모듈을 불러옴 
 

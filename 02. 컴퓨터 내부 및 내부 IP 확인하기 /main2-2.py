@@ -1,5 +1,3 @@
-# socket으로 외부 사이트에 접속하고 접속된 정보를 바탕으로 내부IP를 확인하기
-
 import socket  # socket 모듈 호출
 
 in_addr = socket.socket(socket.AF_INET, socket.SOCK_STREAM) # socket을 연결

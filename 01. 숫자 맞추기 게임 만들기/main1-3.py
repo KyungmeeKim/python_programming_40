@@ -1,5 +1,3 @@
-# 사용자가 int외의 값을 입력할 경우 프로그램이 종료되지 않도록 예외처리
-
 import random
 
 random_number = random.randint(1, 100)
